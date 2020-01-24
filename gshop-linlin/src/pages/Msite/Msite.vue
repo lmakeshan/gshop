@@ -53,6 +53,7 @@ export default {
     }
   },
   mounted () {
+    console.log('hello world')
     this.$store.dispatch('getCategorys')
     this.$store.dispatch('getShops')
   },
